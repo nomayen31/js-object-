@@ -15,8 +15,8 @@ const products = [
     {id:1, name:'walton phone', price:19000},
     {id:2, name:'xiami phone', price:15650},
     {id:3, name:'i-phone', price:54150},
-    {id:4, name:'macbook', price:119000},
-    {id:5, name:'lenevo phone', price:200000},
+    {id:4, name:'macbook laptop', price:119000},
+    {id:5, name:'lenevo laptop', price:200000},
     {id:6, name:'oppo phone', price:23500},
     {id:7, name:'samsung', price:89520},
     {id:8, name:'sony', price:35000},
@@ -35,5 +35,5 @@ function matchProducts(products, search) {
     }   
     return match;
 }
-const result = matchProducts(products,'phone');
+const result = matchProducts(products,'laptop');
 console.log(result);
